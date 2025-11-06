@@ -24,4 +24,24 @@ html {
 .animate-delay-400 {
   animation-delay: 0.4s;
 }
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #001220;
+  background-image: radial-gradient(
+      circle at 30% 40%,
+      rgba(250, 114, 104, 0.25),
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at 70% 60%,
+      rgba(198, 35, 104, 0.25),
+      transparent 70%
+    );
 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
