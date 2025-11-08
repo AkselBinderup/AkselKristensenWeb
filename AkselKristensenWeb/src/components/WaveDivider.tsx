@@ -7,6 +7,7 @@ interface WaveDividerProps {
 const WaveDivider: React.FC<WaveDividerProps> = ({ className = "" }) => {
   return (
     <div className={`w-full overflow-hidden leading-none ${className}`}>
+     
       <svg
         viewBox="0 0 900 600"
         xmlns="http://www.w3.org/2000/svg"

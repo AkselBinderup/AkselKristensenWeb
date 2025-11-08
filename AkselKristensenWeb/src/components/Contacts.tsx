@@ -6,6 +6,6 @@ interface ContactsProps {
 
 export const Contacts: React.FC<ContactsProps> = () => {
   return (
-    <div>Contacts</div>
+<></>
   )
 }
